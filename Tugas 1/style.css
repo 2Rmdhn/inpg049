@@ -1,0 +1,21 @@
+.padding{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.margin{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.nav-bg:hover{
+    background-color:lightgrey;
+}
+
+.nav-bg:active{
+    background-color:lightgrey;
+}
+
+.background{
+    background-color: lightgrey;
+}
