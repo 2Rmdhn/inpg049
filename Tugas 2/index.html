@@ -94,7 +94,8 @@
   </section>
 
   <section class="margin" id="editform">
-    <label class="form-label">Nama</label>
+    <form onsubmit="return false">
+      <label class="form-label">Nama</label>
     <div class="input-group mb-3">
       <input id="Nama" type="text" class="form-control">
     </div>
@@ -123,8 +124,9 @@
       <input id="Email" type="text" class="form-control">
     </div>
     <div class="">
-      <button onclick="saveForm()" type="button" class="btn btn-success">Submit</button>
+      <button onclick="showForm()" type="submit" class="btn btn-success">Submit</button>
     </div>
+    </form>
   </section>
 
   <section class="my-4">
