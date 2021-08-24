@@ -24,7 +24,6 @@ let makanan_favorit = [
     }
 
 // -------------------------------------------------------------------
-
 // Fungsi Modular
 
 // contoh encrypt password
@@ -77,3 +76,4 @@ let proses1 = menghapusSpasi("ini huruf a i u e o")
 let proses2 = membalikKata(proses1)
 let proses3 = merubahHuruf(proses2)
 console.log(proses3)
+//-----------------------------------------------------------------
